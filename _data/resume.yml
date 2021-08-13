@@ -47,19 +47,19 @@ main: #简历主要内容，
     sub: 阿里巴巴
     duration: "2020年6月 - 2020年9月"
     #summary: 职务或者工作总结(自动折叠)
-     list:
-     - 为神马搜索的算法工程平台处理链增加缓存模块，
-     - 为神马搜索封建服务添加新的封禁策略
+    list:
+    - 为神马搜索的算法工程平台处理链增加缓存模块，
+    - 为神马搜索封建服务添加新的封禁策略
     #可以设置open默认展开
   - title: Data评论-开发实习生
     sub: 字节跳动
     duration: "2021年1月 - 2021年4月"
     #summary: Summary your job or work. (Collapse)
     #detail: Details can be collapsed in Chrome Safari, Firefox, Opera and so on. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-     list:
-     - 开发抖音热评自动放出工具
-     - 开发抖音表情包回查工具
-     - 更新头条举报送审服务
+    list:
+    - 开发抖音热评自动放出工具
+    - 开发抖音表情包回查工具
+    - 更新头条举报送审服务
 - type: projects
   name: 项目
   content:
