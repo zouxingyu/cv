@@ -117,6 +117,13 @@ layout: default
               {% else %}
                 <div class="detail">{{ detail }}</div>
               {% endif %}
+             {% elsif content.list %}
+              <ul class="list">
+                {% for li in content.list %}
+                  <li class="text">{{ li }}</li>
+                {% endfor %}
+              </ul>
+             {% else %}
 
             {% elsif content.items %}
               <p class="items">
