@@ -85,10 +85,10 @@ main: #简历主要内容，
 #    - 睡觉
 #    - 吃饭
 #    - coding
-#  - title: 列表
-#    list:
-#    - 第一项
-#    - 第二项
+  - title: 列表
+    list:
+    - 第一项
+    - 第二项
 #- type: 
 #  name: '其他'
 #  content: #选择需要的格式
