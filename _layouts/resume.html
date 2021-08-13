@@ -106,6 +106,13 @@ layout: default
                 {% capture md %}{% include_relative {{content.detail.md}} %}{% endcapture %}
                 {% assign detail= md | markdownify %}
               {% else %}
+               {% elsif content.detail.list %}
+                <ul class="list">
+                  {% for li in content.detail.list %}
+                    <li class="text">{{ li }}</li>
+                  {% endfor %}
+                </ul>
+               {% else %}
                 {% assign detail=content.detail %}
               {% endif %}
 
@@ -117,13 +124,7 @@ layout: default
               {% else %}
                 <div class="detail">{{ detail }}</div>
               {% endif %}
-             {% elsif content.list %}
-              <ul class="list">
-                {% for li in content.list %}
-                  <li class="text">{{ li }}</li>
-                {% endfor %}
-              </ul>
-             {% else %}
+            
 
             {% elsif content.items %}
               <p class="items">
