@@ -76,7 +76,7 @@ others: #其他列表显示
     sub: 开发者
 
 #others 其他简略内容(列表)
-others: #其他列表显示
+#others: #其他列表显示
 - type: others #ID可以为空
   name: '其他'
   content: #选择需要的格式
