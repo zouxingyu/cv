@@ -40,8 +40,8 @@ main: #简历主要内容，
     - Linux
     - Git
     
-- type: experience
-  name: 经验
+- type: internship
+  name: 实习
   content:
   - title: UC事业部-基础工程平台-开发实习生
     list:
