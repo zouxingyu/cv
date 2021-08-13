@@ -89,6 +89,8 @@ others: #其他列表显示
     - 吃饭
     - coding
   - title: 列表
+    sub: 字节跳动
+    duration: "2021年1月 - 2021年4月"
     list:
     - 第一项
     - 第二项
