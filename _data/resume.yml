@@ -39,7 +39,8 @@ main: #简历主要内容，
     - Redis
     - Linux
     - Git
-
+    
+others: #其他列表显示
 - type: experience
   name: 经验
   content:
